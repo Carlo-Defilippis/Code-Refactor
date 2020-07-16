@@ -20,11 +20,11 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 {
     color: #d9dcd6;
 }
-
-.header section {
+/* Gave navigation list a selector of nav */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,15 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
+/* Changed non specific div to section and navigation bar to nav */
+
+.header nav ul {
     list-style-type: none;
 }
 
-.header section ul li {
+/* Changed non specific div to section and navigation bar to nav */
+
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,6 +49,8 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Made all explaination paragraphs into articles */
 
 article {
     font-size: 16px;
@@ -86,6 +92,8 @@ article {
     background-color: #2589bd;
 }
 
+/* Combined 3 classes into same properties and values */
+
 .benefit-lead .benefit-cost .benefit-brand {
     margin-bottom: 10px;
     text-align: center;
@@ -93,7 +101,9 @@ article {
     color: #ffffff;
 }
 
-.pictures {
+/* Gave 3 pictures a class of picturesright giving them one selector and one set of properties */
+
+.picturesright {
     display: block;
     margin: 10px auto;
     max-width: 150px;
