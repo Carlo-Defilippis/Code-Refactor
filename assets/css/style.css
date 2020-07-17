@@ -94,7 +94,7 @@ article {
 
 /* Combined 3 classes into same properties and values */
 
-.benefit-lead .benefit-cost .benefit-brand {
+.benefit-lead, .benefit-cost, .benefit-brand {
     margin-bottom: 10px;
     text-align: center;
     margin-bottom: 32px;
